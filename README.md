@@ -1,15 +1,16 @@
-# Selected projects
+# AI application engineering
 
-I build AI workflow demos and small software tools, with a focus on tool calling, traceable outputs, and evaluation.
+I build Python prototypes for LLM-powered applications. I focus on making tool calls traceable, outputs checkable, and experiments reproducible.
 
-### Graph coloring in Java
+## Technical focus
 
-A coursework solver that combines constraint propagation, search heuristics, and backtracking to assign different colors to neighboring vertices. Includes sample graphs and JUnit tests.
+- **Agent workflows** · Tool calling, knowledge retrieval, and validation of structured outputs.
+- **Model integration** · Local inference and hosted APIs, with comparisons based on response quality, latency, and resource use.
+- **Experiment automation** · Batch runs, timeout handling, and turning logs into results others can check.
 
-[Explore the graph coloring solver](https://github.com/jackguo2016/java-graph-coloring-csp)
+## Selected public work
 
-### Handwritten digit recognition
-
-A Java k-nearest neighbors experiment using labeled MNIST images. Includes a confusion matrix for a single K = 1 run, with 217 of 249 examples classified correctly on the bundled coursework split.
-
-[Explore the MNIST experiment](https://github.com/jackguo2016/java-knn-mnist)
+| Project | What to look at |
+| --- | --- |
+| [Graph coloring in Java](https://github.com/jackguo2016/java-graph-coloring-csp) | Constraint propagation and backtracking. The repository includes sample graphs and JUnit tests. |
+| [Handwritten digit recognition](https://github.com/jackguo2016/java-knn-mnist) | A Java KNN experiment with a confusion matrix for a single K = 1 run. On the bundled coursework split, 217 of 249 examples were classified correctly. |
